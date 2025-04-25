@@ -32,6 +32,9 @@
                     <div class="container">
                         <a th:href="@{/editar/{id}(id=${contacto.idContacto})}"
                            class="btn btn-warning btn-sm me-3">Editar</a>
+
+                        <a th:href="@{/eliminar/{id}(id=${contacto.idContacto})}"
+                           class="btn btn-danger btn-sm">Eliminar</a>
                     </div>
                 </td>
             </tr>
